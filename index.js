@@ -82,7 +82,7 @@ const getRegionResources = (region) => {
 }
 
 const getRegionsResources = (regions) => {
-    regionsResources = [];
+    const regionsResources = [];
 
     regions.forEach(region => regionsResources.push(getRegionResources(region.regionName)));
 
